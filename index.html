@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IT Worker | responsive portfolio template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">IT 工作者</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">简介</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">关于我</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">服务</a></li>              
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">联系我</a></li>
+			  <li class="nav-item"><a href="#references" class="nav-link link-scroll">我的作品</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/dev.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="130"></div>
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">欢迎访问我的主页!</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">
+			10+年Java系统架构、开发与维护经验，3+年WEB前端的开发经验，2+年技术管理经验<br/>
+			主要提供WEB系统开发、APP开发、微信小程序与公众号开发、VBA开发等服务
+		</p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">关于我</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+		    <strong>教育经历</strong><br>
+            <p>				
+				学校：江苏海洋大学<br>   专业：计算机科学与技术<br>  时间：2001-2005
+			</p>
+			<hr>
+			<strong>证书</strong><br>
+			<div class="row">
+			    <div class="col-md-6">
+					证书：软件设计师（高级程序员）
+				</div>
+				<div class="col-md-6">
+					时间：2004/5
+				</div>
+				
+				<div class="col-md-6">
+					证书：英语四级
+				</div>
+				<div class="col-md-6">
+					时间：2003/3
+				</div>
+				
+				<div class="col-md-6">
+					证书：程序员
+				</div>
+				<div class="col-md-6">
+					时间：2002/12
+				</div>
+			</div>
+			<hr>
+			<strong>主要工作经历</strong><br>
+			<div class="row">
+				<div class="col-md-6">
+					公司名称：德淮半导体
+				</div>					  	
+				<div class="col-md-6">
+					职位：主任工程师/课经理
+				</div>
+				<div class="col-md-12">
+					工作描述：带领团队负责公司内部业务系统（投票系统、进出口系统、行业信息共享系统、统一认证平台、报表系统、签核流程等）的需求分析、架构设计、开发与维护。 
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-6">
+					公司名称：南京途牛旅游网
+				</div>
+				<div class="col-md-6">
+					职位：高级工程师/技术专家
+				</div>
+				<div class="col-md-12">
+					工作描述：主要负责基于JAVA WEB平台的订单系统、权限系统的需求分析，功能设计与开发，性能优化，疑难问题定位。被评选为公司技术委员会开发组技术专家成员。
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-6">
+					公司名称：南京华为研究所
+				</div>
+				<div class="col-md-6">
+					职位：工程师
+				</div>
+				<div class="col-md-12">
+					工作描述：主要负责基于JAVA WEB平台的数字电视系统的功能设计与开发，性能调优，疑难问题定位。 
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-6">
+					公司名称：群硕软件
+				</div>
+				<div class="col-md-6">
+					职位：工程师
+				</div>
+				<div class="col-md-12">
+					工作描述：主要负责基于JAVA平台的系统开发与维护。 
+				</div>
+			</div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <div class="skill-item">
+              <div class="progress-title">JAVA/Spring MVC/Mybatis/Spring Boot</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 90%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Javascript</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">HTML</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">CSS</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">JQuery</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+			<div class="skill-item">
+			  <div class="progress-title">BootStrap</div>
+			  <div class="progress">
+			    <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+			  </div>
+			</div>
+			<div class="skill-item">
+			  <div class="progress-title">VUE</div>
+			  <div class="progress">
+			    <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+			  </div>
+			</div>
+			<div class="skill-item">
+			  <div class="progress-title">VBA</div>
+			  <div class="progress">
+			    <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+			  </div>
+			</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">服务</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-3">
+            <div class="icon"><i class="fa fa-television"></i></div>
+            <h3 class="heading mb-3 text-400">JAVA WEB系统</h3>
+            <p class="text-left description">包括网站、企业管理软件、报表等</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3">
+            <div class="icon"><i class="fa fa-mobile"></i></div>
+            <h3 class="heading mb-3 text-400">APP</h3>
+            <p class="text-left description">Android平台原生APP</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3">
+            <div class="icon"><i class="fa fa-mobile"></i></div>
+            <h3 class="heading mb-3 text-400">微信公众号与小程序</h3>
+            <p class="text-left description">微信公众号与小程序</p>
+          </div>
+		  <div data-animate="fadeInUp" class="col-lg-3">
+		    <div class="icon"><i class="fa fa-file-excel-o "></i></div>
+		    <h3 class="heading mb-3 text-400">VBA</h3>
+		    <p class="text-left description">基于Excel的VBA程序开发</p>
+		  </div>
+        </div>
+      </div>
+    </section>
+	
+	<!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">联系我</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form id="contact-form" method="post" action="">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    邮箱：156232377@qq.com
+                  </div>
+                  <div class="col-md-6">
+                    手机/微信: 13064921142
+                  </div>
+                  
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map-->
+
+    <section id="references">
+      <div class="container">
+          <div class="text-center">
+            <h2 data-animate="fadeInDown" class="title">我的作品</h2>
+          </div>
+          <br>		  
+		  <div data-animate="fadeInUp">
+		  	<strong>
+		  		Excel日历头
+		  	</strong>
+		  	<div>
+		  		说明：在Excel中根据输入的开始年月和结束年月生成周数，以及每周的开始日期和结束日期。 
+		  	</div>
+			<img src="works/calendar-head/calendar-head.png" />
+			<a href="works/calendar-head/calendar-head.xlsm">下载</a>			
+			<hr>		
+			
+			<strong>
+		  		家委会主页
+		  	</strong>
+		  	<div>
+		  		说明：显示班级公告、作业、课件等信息。 
+		  	</div>			
+			<a href="https://wukong1982.github.io/homecommittee/index.html">链接</a>			
+			<hr>
+			
+			<strong>
+		  		家委会后台管理系统
+		  	</strong>
+		  	<div>
+		  		说明：管理班级公告、作业、课件等信息。 
+		  	</div>			
+			<a href="https://wukong1982.github.io/homecommitteemanage/index.html">链接</a>
+			<hr>
+			
+			<strong>
+		  		课程评分系统
+		  	</strong>
+		  	<div>
+		  		说明：为每节课进行评分。 
+		  	</div>			
+			<hr>
+		  </div>		  
+      </div>
+    </section>
+
+  
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
